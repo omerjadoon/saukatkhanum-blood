@@ -1,0 +1,531 @@
+
+
+*{
+	padding: 0px;
+	margin:0px;
+}
+
+#body_login{
+	background: url("images/blood3.jpg");
+	background-size: cover;
+}
+#body_register{
+	background: url("images/blood2.jpg");
+	background-size: cover;
+}
+#body_dashboard{
+	background: #ccc;
+}
+.thanks{
+	width:500px;
+	height: 300px;
+	margin:100px auto;
+	padding: 30px;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 5px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+	background-color: #fff;
+	color: #111;
+	text-align: center;
+	}
+.header_login {
+				background:rgba(204,0,0,0.3);
+				color: #ffffff;
+				text-align: center;
+				padding: 10px;
+			}			
+.wrapper_login{
+	margin:8% auto;
+	width:25%;
+	background:rgba(30,30,30,0.5);
+	
+	border-radius: 20px;
+}
+
+
+#login_form{
+	
+}
+#email_login{
+	padding: 8px;
+	width:100%;
+	border-radius: 8px;
+}
+#pass{
+	padding: 8px;
+	width:100%;
+	border-radius: 8px;
+}
+#submit_btn{
+	margin-top: 8px;
+	padding: 8px;
+	width:100%;
+	border-radius: 8px;
+	background-color: #cc0000;
+	border:1px solid transparent;
+	color: white;
+	margin-bottom: 8px;
+}
+#login_form{
+	padding: 10%;
+	color: #dddddd;
+
+}
+#login_form a{
+	
+	color: #ffffff;
+	
+	font-weight: bold;
+}
+
+/****************************Registration form stylization************************************/
+
+.header_register
+{
+	background:rgba(204,0,0,0.3);
+	color: #ffffff;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+}
+
+.wrapper_register{
+	margin:5% auto;
+	width:30%;
+	background:rgba(30,30,30,0.5);
+	color: #dddddd;
+	padding: 3%;
+	border-radius: 20px;
+
+} 
+.wrapper_register a{
+color: #ff0000;
+font-weight: bold;
+	}
+
+#fname{
+	width:100%;
+	padding: 5px;
+	border-radius: 8px;
+}
+#lname{
+	width:100%;
+	padding: 5px;
+	border-radius: 8px;
+}
+#blood_group{
+	width:100%;
+	padding: 5px;
+	border-radius: 8px;
+}
+#email{
+	width:100%;
+	padding: 5px;
+	border-radius: 8px;
+}
+#mobile{
+	width: 100%;
+	padding: 5px;
+	border-radius: 8px;
+}
+#password{
+	width:100%;
+	padding: 5px;
+	border-radius: 8px;
+}
+#password2{
+	width:100%;
+	padding: 5px;
+	border-radius: 8px;
+}
+#register_btn{
+	margin-top: 8px;
+	margin-bottom:8px; 
+	margin-right: 10%;
+	padding: 8px;
+	border-radius: 8px;
+	background-color: #cc0000;
+	border:1px solid transparent;
+	color: white;
+	width:100%;
+}
+
+
+/**************************************Dashboard css***********************************************/
+.logo_img{
+	width:40%;
+}
+.logo{
+	
+	height: 40px;
+	display: inline-block;
+	padding-left: 35px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	
+	/*position: absolute;*/
+}
+
+.header_wrapper{
+	width:100%;
+	margin-top: 0px;
+	padding: 0px 5px 5px 5px;
+	background-color: #111;
+}
+#search_div{
+	width: 45%;
+	padding: 5px 2%;
+	display: inline-block;
+	float: right;
+}
+#search{
+	width: 100%;
+	padding: 8px;
+	border-radius: 5px;
+}
+#menu_div{
+	display: inline-block;
+	float: right;
+	padding: 4px 5%;
+
+	
+}
+.menu,li{
+	display: inline-block;
+	text-decoration: none;
+	
+}
+.li a{
+	color: #ddd;
+	padding:21px;
+text-decoration: none;
+}
+.li a:hover{
+	
+	color: #fff;
+}
+.main_body
+{
+	background-color: rgba(200,200,200,0,3);
+}
+.main_body h1{
+	text-align: center;
+	margin-top: 2%;
+	
+
+}
+.panels{
+	margin: 30px auto;
+	text-align: center;
+}
+.txtarea{
+-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box; width: 100%;
+}
+.panel{
+	width:20%;
+	
+	display: inline-block; 
+}
+
+/*????????????????????????????Drop Down ??????????????????????????????*/
+.dropbtn {
+    background-color: #111;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #444;
+}
+
+
+/**********************************LOGOUT CSS *************************************************/
+
+#miss_img{
+	margin:5% 45% 0% 45%;
+	width:10%;
+	text-align: center;
+}
+#logout_text{
+	margin-top: 10px;
+	text-align: center;
+	color:#666;
+}
+
+
+/************************************** Request CSS **********************************************/
+#request_body
+{
+	background: rgb(120,120,120);
+}
+.wrapper{
+	width:40%;
+	
+	color: #fff;
+	margin: 5% auto;
+	padding: 10px;
+
+}
+#title{
+	width: 100%;
+	
+	padding:5px 0px;
+	border-radius: 10px;
+	margin:5px auto;
+
+}
+#bodytxt{
+	width:100%;
+	margin:5px auto;
+	
+	border-radius: 10px;
+}
+#request_submit_btn{
+	padding:10px;
+	margin:10px;
+}
+
+
+/******************************DASHBOARD 2 *********************************************************/
+
+.post{
+	
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.2);
+	width:60%;
+	background: rgb(255,255,255);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+	padding: 10px;
+	margin-bottom: 15px;
+
+
+
+}
+.post-img{
+	
+	padding:0px;
+	margin-right:5px;
+	float: left;
+}
+.post-name{
+	display: inline-block;
+	margin-top: 0px;
+
+}
+.post-t{
+	background-color: #333;
+	padding: 5px;
+}
+ .post-title{
+ 	text-align: center;
+ 	color: #fff;
+ }
+ .post-n{
+ 	margin-left:5px;
+ 	padding: 5px;
+ 	display: block;
+ 	
+ }
+ .post-date{
+ 	padding-left:5px;
+ 	display: block;
+ }
+.post-group{
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+
+}
+.btn-donate{
+	padding: 10px;
+	margin-left: 10px
+	float:left;
+}
+.btn-interested{
+	padding: 10px;
+	margin-right: 10px
+	float:right;
+}
+.post h4{
+	color:white;
+	background-color: #223322;
+	border-radius: 5px 5px 0px 0px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+.post p{
+	padding:10px;
+	color: #000;
+}
+
+.post h6{
+	font-size: 13px;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border:5px solid #495057;
+  font-size: 20px;
+  color: #fff;
+  line-height: 200px;
+  text-align: center;
+  display: inline-block;
+  margin:0px;
+  background: #000;
+
+}
+
+
+
+
+/*************************************** Profile css **************************************************/
+
+.cover{
+	width: 96%;
+	height:315px;
+	magin:0px;
+	background: url(images/cover2.jpg);
+	background-size: cover;
+
+	position: absolute;
+
+	border-bottom: 5px solid #333;
+}
+.profile-pic{
+	width:200px;
+	height: 200px;
+	display: block;
+	margin:200px 40%;
+	position: absolute;
+	border-radius: 50%;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+
+}
+.p-pic{
+	width: 200px;
+	height: 200px;
+	border:5px solid #333;
+	border-radius: 50%;
+}
+a{
+	text-decoration: none;
+	color:#232323; 
+}
+a:hover{
+	text-decoration: none;
+	color:#737373; 
+}
+.profile-body{
+	margin-top:315px; 
+	padding: 80px 80px 50px 80px;
+	width: 100%;
+	height: 1000px;
+	background-color: rgba(255,255,255,0.26);
+	
+}
+.profile-info{
+text-align: center;
+margin-bottom: 50px;
+
+}
+.contact{
+	background: rgb(255,255,255);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.2);
+	text-align: center;
+	width:400px;
+	height: 250px;
+	float: left; 
+}
+.contact h6{
+text-align: left;
+	}
+.contact p{
+text-align: left;
+	}
+.bio{
+	background: rgb(255,255,255);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.2);
+	text-align: center;
+	width:400px;
+	height: 250px;
+	float: right;
+	display: inline-block; 
+}
+
+.bio h6{
+text-align: left;
+	}
+.bio p{
+text-align: left;
+	}
+
+
+
+/*************************************** v_donar css ***************************************************/
+
+.box{
+
+	padding: 20px;
+	text-align: center;	
+}
+.inner-box{
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 5px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+	background-color: #fff;
+	padding: 30px 0px;
+}
+
+.circle-big {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border:5px solid #495057;
+  font-size: 20px;
+  color: #fff;
+  line-height: 200px;
+  text-align: center;
+  display: block;
+  margin:5px auto;
+  background: #000;
+
+}
+

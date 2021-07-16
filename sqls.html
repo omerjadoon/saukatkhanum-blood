@@ -1,0 +1,2 @@
+SELECT * FROM chat fullMessage JOIN ( SELECT max(msgid) as MAX_ID, r_email, s_email FROM chat where r_email="omer@gmail.com" or s_email="omer@gmail.com" GROUP BY r_email, s_email ) maxMessage ON maxMessage.MAX_ID = fullMessage.msgid ORDER BY fullMessage.date desc
+

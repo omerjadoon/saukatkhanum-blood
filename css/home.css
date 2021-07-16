@@ -1,0 +1,62 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.topbar{
+	background: #8a0303;
+	color: #fff;
+	text-align: center;
+}
+.topbar-contact{
+	padding: 18px;
+}
+
+.topbar-login{
+	padding: 18px;
+	background: #222;
+}
+
+.mainbar{
+	padding: 28px;
+	background: #fff;
+}
+
+.mainpic{
+
+}
+
+.mainoptions{
+	text-align: center;
+	padding: 38px;
+	background: #ddd;
+	
+}
+
+.options{
+	color: #fff;
+	margin: 15px;
+	background: #8a0303;
+	border-radius: 30px;
+	padding: 30px;
+
+}
+.option-heading{
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.nav-item{
+	margin-left: 10px;
+	
+	color: #fff;
+	padding: 5px;
+}
+
+.footer{
+	background: #222;
+	text-align: center;
+	color: #fff;
+	padding: 20px;
+}

@@ -1,0 +1,107 @@
+
+*{
+	padding: 0px;
+	margin:0px;
+}
+.logo{
+	margin-top: 0px;
+	width:100px;
+}
+.top-head{
+	display: inline-block;
+	color: red;
+}
+nav ul{
+	height:60px;
+
+	
+}
+li{
+	padding: 10px;
+}
+li a{
+	padding: 40px;
+}
+.menu-skew-div{
+	background-color: #fd580b;
+}
+
+.banner{
+	background-color: #992125;
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+}
+.section{
+	background-color:#992125;
+	color: #fff;
+	padding: 20px;
+	border-top:5px solid #ffaa22;
+	border-bottom:5px solid #ffaa22;
+	border-radius: 5px;
+}
+.box{
+	padding: 30px;
+	margin:5%;
+	height: 380px;
+	background-color: #fd8008;
+	opacity:0.9;
+	font-size: 1.6em;
+	width: 80%;
+	border-radius: 20px;
+}
+input{
+	
+	margin:5px; 
+}
+h2{
+	font-size: 2em;
+}
+.box1{
+	background-color: #fd8008;
+	height: 380px;
+	margin:5%;
+	padding: 50px;
+	border-radius: 20px;
+}
+.center{
+	text-align: center;
+}
+.navslide{
+	margin-top: 0px;
+	background-color:  #fd8008;
+	
+	border-left:20px solid #343a40;
+	border-top: 35px solid #343a40;
+	border-right:20px solid transparent;
+	border-bottom: 35px solid transparent;
+}
+.navslide2{
+	margin-top: 0px;
+	background-color:  #fd8008;
+	position: absolute;
+	top:0px;
+	left:100px;
+	border-left:50px solid transparent;
+	border-top: 50px solid transparent;
+	border-right:50px solid transparent;
+	border-bottom: 50px solid #343a40;
+}
+#navbarSupportedContent{
+	background-color:  #fd8008;
+	color: #222
+}
+#navbarSupportedContent a{
+	background-color:  #fd8008;
+	color: #222
+}
+body{
+	background-color:  #343a40;
+}
+footer{
+	border-top: 3px solid #121212;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+	background-color: #111111;
+
+}
